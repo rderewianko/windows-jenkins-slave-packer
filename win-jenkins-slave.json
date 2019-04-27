@@ -63,12 +63,13 @@
       {
         "type": "powershell",
         "scripts": [
-            "./Enable_smb.ps1",           
+            "./Enable_smb.ps1", 
+            "./chocolatey-install.ps1"          
         ]
       },
       {
           "type": "file",
-          "source": "launch-config.json",
+          "source": "./launch-config.json",
           "destination":
               "C:\\ProgramData\\Amazon\\EC2-Windows\\Launch\\Config\\LaunchConfig.json"
       },
