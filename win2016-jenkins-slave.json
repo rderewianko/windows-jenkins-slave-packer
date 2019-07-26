@@ -36,7 +36,7 @@
               "owners": ["amazon"],
               "most_recent": true
               },
-        "user_data_file": "./scripts/windows/EC2Bootstrap.ps1",
+        "user_data_file": "./EC2Bootstrap.ps1",
         "associate_public_ip_address": false,
         "communicator": "winrm",
         "winrm_username": "Administrator",
